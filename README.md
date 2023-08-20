@@ -162,4 +162,4 @@ pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir
 
 **download ggml model add to model folder
  
-** modify prompt template based on model requirement in llm_utlis.py. the mentioned prompt template works for llama 2 family model
+** modify prompt template based on model requirement in llm_utils.py. the mentioned prompt template works for llama 2 family model
