@@ -153,11 +153,13 @@ Our view on unbiased research claims:
 
 SET CMAKE_ARGS=-DLLAMA_BLAS=ON -DLLAMA_BLAS_VENDOR=OpenBLAS
 
-##download ggml model add to model folder
+
 
 SET FORCE_CMAKE=1
 
 pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir
 
 
-
+**download ggml model add to model folder
+ 
+** modify prompt template based on model requirement in llm_utlis.py. the mentioned prompt template works for llama 2 family model
