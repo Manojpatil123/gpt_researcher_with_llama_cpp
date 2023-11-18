@@ -14,7 +14,7 @@ The agent can produce detailed, factual and unbiased research reports, with cust
 - Solutions that enable web search (such as ChatGPT + Web Plugin), only consider limited resources that in some cases result in superficial conclusions or biased answers.
 - Using only a selection of resources can create bias in determining the right conclusions for research questions or tasks. 
 
-## Architecture
+## Architecture.
 The main idea is to run "planner" and "execution" agents, whereas the planner generates questions to research, and the execution agents seek the most related information based on each generated research question. Finally, the planner filters and aggregates all related information and creates a research report. The agents leverage both gpt3.5-turbo-16k and gpt-4 to complete a research task.
 
 <div align="center">
